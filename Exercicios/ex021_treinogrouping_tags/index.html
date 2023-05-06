@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgrey;
+            margin: 0px;
+        }
+    
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        nav {
+            background-color: rgb(134, 133, 133);
+            padding: 5px;
+        }
+        nav > a {
+            color: white;
+            text-shadow: 3px 3px 3px  black;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 40px;
+        }
+        nav > a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        #assuntos {
+             background-color: rgb(99, 104, 104);
+             height: 200px;
+             padding: 3px; 
+             margin: 10px 0px 20px 0px;
+        }
+        #assuntos > h2 {
+            text-align: center;
+            color: white;
+        }
+        #assuntos > p {
+            text-align: center;
+            color: white;
+        }
+
+        article {
+            background-color: lightgrey;
+            padding: 3px;
+        }
+        article > aside {
+            background-color: rgb(160, 159, 159);
+            padding-left: 3px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Esportes Política Técnologia</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, eos assumenda unde quam maxime sed deserunt dignissimos laboriosam quod inventore!</p>
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia officiis sunt laudantium at aperiam, sed eaque eos ut obcaecati dignissimos molestias rerum doloribus, maiores labore corporis a, laborum sapiente? Ducimus!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva.</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Cursoemvideo</p>
+    </footer>
+</body>
+</html>
